@@ -1,15 +1,15 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from 'vue';
+import Vuex from 'vuex';
+import { createProxy, extractVuexModule } from "vuex-class-component";
+import GifStore from './gif.vuex'
+Vue.use(Vuex);
 
-Vue.use(Vuex)
-
-export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+export const store = new Vuex.Store({
   modules: {
+    ...extractVuexModule( GifStore )
   }
-})
+});
+
+export const vxm = {
+  gif: createProxy( store, GifStore ),
+}

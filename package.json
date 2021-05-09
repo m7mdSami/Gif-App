@@ -7,12 +7,18 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "axios-observable": "^1.1.6",
+    "bootstrap": "^5.0.0",
+    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11",
+    "rxjs": "^7.0.0",
+    "vue": "^2.6.12",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.1.2",
     "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "vuex": "^3.4.0",
+    "vuex-class-component": "^2.3.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

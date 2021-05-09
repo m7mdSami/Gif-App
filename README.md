@@ -1,5 +1,11 @@
 # gif-app
 
+This is a sample Gif app you can through it see a lot of Gif image and search and put Gif image in your favorite.
+
+## Tools and Technologies
+
+HTML, bootstrap-vue, SCSS, Typescript, JS ES6+, Vue js, Vuex Store.
+
 ## Project setup
 ```
 npm install
@@ -14,6 +20,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
